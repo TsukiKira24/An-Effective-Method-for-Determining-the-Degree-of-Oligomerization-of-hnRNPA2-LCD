@@ -1,5 +1,4 @@
 ##########################################################################################
-#
 #FOLDER Contact-maps:
 #1. Generation of files used for contact map (protein-ion) analysis:
 #	Extract_protein-ion_interactions.py
@@ -7,7 +6,6 @@
 #	(Supplementary:) Contact_maps_and_barplots_for_LCD_domain.py
 #	(Figure 3A-C; Supplementary:) Contact_map_and_barplots_highlight_fragment-263-319.py
 #	(Figure 3D) 6WQK_fibril_inner_contacts_contact_map.py
-#
 ##########################################################################################
 #
 #FOLDER Fibril-contacts-recreation-analysis:
