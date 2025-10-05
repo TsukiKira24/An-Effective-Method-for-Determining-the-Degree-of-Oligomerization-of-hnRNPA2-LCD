@@ -540,10 +540,9 @@ def create_violin_plot(df, fibril_df=None):
             plt.savefig(alt_filename, dpi=300, bbox_inches='tight')
             print(f"Original file was locked, saved as: {alt_filename}")
         
-        # Try to save PDF version
         try:
-            pdf_filename = output_filename.replace('.png')
-            plt.savefig(pdf_filename, bbox_inches='tight')
+            pdb_filename = output_filename.replace('.png')
+            plt.savefig(pdb_filename, bbox_inches='tight')
         except:
             pass 
         
@@ -709,7 +708,6 @@ def main():
     print("\nAnalysis complete!")
     print("Generated files:")
     print("  Fibril_Contacts_Violin_Plot.png")
-    print("  Fibril_Contacts_Violin_Plot.pdf") 
     print("  Fibril_Contacts_Summary_Statistics.csv")
     print("\nThe plot shows how well monomer simulations recreate")
     print("the specific inter-chain contact patterns found in the fibril structure.")
